@@ -16,10 +16,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping("/partner/hotel-management")
+@RequestMapping("/partner/booking-management")
 @RequiredArgsConstructor
 @FieldDefaults(level = AccessLevel.PUBLIC,makeFinal = true)
 public class BookingManagementController {
+
 
 
     BookingManagementService bookingManagementService;
