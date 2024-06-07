@@ -1,7 +1,7 @@
 version: "3.3"
 services:
   login:
-    container_name: manage-room-partner
+    container_name: manage-booking-partner
     image: coderbillzay/manage-booking-partner
     ports:
       - '1400:1400'
