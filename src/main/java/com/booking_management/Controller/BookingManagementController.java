@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping("/booking-management/")
+@RequestMapping("/partner/hotel-management")
 @RequiredArgsConstructor
 @FieldDefaults(level = AccessLevel.PUBLIC,makeFinal = true)
 public class BookingManagementController {
