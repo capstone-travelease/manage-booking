@@ -1,0 +1,11 @@
+version: "3.3"
+services:
+  login:
+    container_name: manage-room-partner
+    image: coderbillzay/manage-booking-partner
+    ports:
+      - '1400:1400'
+    volumes:
+      - ./:/server
+      - /var/www/html/room_images/:/room_images
+    restart: always
